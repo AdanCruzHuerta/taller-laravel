@@ -1,0 +1,17 @@
+nav{
+    height: 180px;
+    background-color: #1e88e5 !important;
+    color: #FFFFFF;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.box-login{
+    margin-top: 30px;
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+}
+a {
+    margin-top: 20px;
+}
