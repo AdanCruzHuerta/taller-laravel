@@ -17,3 +17,8 @@ Route::get('/', function () {
 Route::get('/registrar', function() {
     return view('registrar', ['title' => "Registrar"]);
 });
+Route::post('/registrar', 'UserController@registrar');
+Route::post('/login', 'UserController@login');
+Route::get('/cerrar-sesion', 'UserController@cerrarSesion');
+
+Route::get('/panel', 'UserController@panel');
